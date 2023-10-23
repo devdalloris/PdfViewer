@@ -20,7 +20,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     var rvPdfAdapter: RvPdfAdapter? = null
     var listOfPdf: MutableList<Pdf> = ArrayList()
 
-    @SuppressLint("SuspiciousIndentation")
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         _binding = FragmentHomeBinding.bind(view)
